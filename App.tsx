@@ -20,6 +20,7 @@ interface SelectedItem {
 }
 
 export default function App() {
+  // State management for shopping cart and filters
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
   const [selectedRegion, setSelectedRegion] = useState<string>('הכל');
   const [selectedCity, setSelectedCity] = useState<string>('הכל');
