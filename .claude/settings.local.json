@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start)",
+      "Bash(timeout 15 bash:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 20 bash:*)",
+      "Bash(taskkill:*)",
+      "Bash(nul)",
+      "Bash(dir:*)",
+      "Bash(timeout 10 bash:*)",
+      "Bash(python generate_data.py:*)",
+      "Bash(python:*)",
+      "Bash(timeout 30 bash:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(if exist node_modules.cache rmdir /s /q node_modules.cache)",
+      "Bash(rm:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(npm install:*)",
+      "Bash(npx expo install:*)",
+      "Bash(npm run web:*)",
+      "Bash(npx expo start:*)",
+      "Bash(ipconfig:*)",
+      "Bash(npx expo:*)",
+      "Bash(start:*)",
+      "Bash(adb devices)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
